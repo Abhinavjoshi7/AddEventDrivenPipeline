@@ -1,2 +1,2 @@
 # AddEventDrivenPipeline
-For Azure Data factory ingestion purpose
+Repository for Azure Data Factory, for event based ingestion purpose
