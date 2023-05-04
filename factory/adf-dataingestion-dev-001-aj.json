@@ -1,0 +1,9 @@
+{
+	"name": "adf-dataingestion-dev-001-aj",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "541281b7-7f89-4fef-b70b-7ab56fa55b40",
+		"tenantId": "5e8b0a9e-65df-4d77-9a61-3474f26d8fa2"
+	}
+}

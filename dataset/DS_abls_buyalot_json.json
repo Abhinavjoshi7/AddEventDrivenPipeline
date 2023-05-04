@@ -1,0 +1,54 @@
+{
+	"name": "DS_abls_buyalot_json",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "ls__adls_buyalot_webstore",
+			"type": "LinkedServiceReference"
+		},
+		"folder": {
+			"name": "webstore"
+		},
+		"annotations": [],
+		"type": "Json",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"fileName": "moves.json",
+				"container": "pokemon"
+			}
+		},
+		"schema": {
+			"type": "object",
+			"properties": {
+				"accuracy": {
+					"type": "integer"
+				},
+				"category": {
+					"type": "string"
+				},
+				"cname": {
+					"type": "string"
+				},
+				"ename": {
+					"type": "string"
+				},
+				"id": {
+					"type": "integer"
+				},
+				"jname": {
+					"type": "string"
+				},
+				"power": {
+					"type": "integer"
+				},
+				"pp": {
+					"type": "integer"
+				},
+				"type": {
+					"type": "string"
+				}
+			}
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}
